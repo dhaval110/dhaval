@@ -44,10 +44,10 @@ const socialLinks: ISocialLinkItem[] = [
     text: Strings.StackoverflowUsername,
   },
   {
-    name: Strings.email,
-    url: Strings.primaryEmailLink,
+    name: "Email",
+    url: "mailto:dhaval.webdev@gmail.com",
     icon: faEnvelope,
-    text: Strings.primaryEmail,
+    text: "dhaval.webdev@gmail.com",
   },
 ];
 

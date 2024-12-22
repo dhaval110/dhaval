@@ -81,7 +81,6 @@ const skills: ISkillListItem[] = [
       // },
     ],
   },
-
   {
     title: "Database Management",
     items: [
