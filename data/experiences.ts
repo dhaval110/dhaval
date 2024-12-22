@@ -3,7 +3,7 @@ import { IExperienceItem } from "@/types";
 const experiences: IExperienceItem[] = [
   {
     designation: "Software Development Engineer",
-    company: "StarApps Studio",
+    company: "Jovial Infotech",
     startDate: "Jul 2024",
     isCurrentJob: true,
     location: "Pune, India",
@@ -14,26 +14,12 @@ const experiences: IExperienceItem[] = [
       "Adhering to clean code practices and modern development techniques.",
     ],
   },
-  {
-    designation: "Full Stack Developer",
-    company: "Merito",
-    startDate: "Feb 2023",
-    endDate: "Jul 2024",
-    isCurrentJob: false,
-    location: "Pune, India",
-    description: [
-      "Developed over 5 web applications with seamless backend API integration.",
-      "Streamlined workflows by eliminating redundant data, boosting efficiency.",
-      "Improved website loading time by 80% through image optimization, minimizing main-thread work, and implementing SEO strategies.",
-      "Resolved 100+ bugs and conducted thorough code reviews.",
-      "Demonstrated expertise in both backend and frontend development.",
-    ],
-  },
-  {
+
+    {
     designation: "Full Stack Development Intern",
-    company: "TECHOX LLP",
-    startDate: "May 2021",
-    endDate: "Jul 2022",
+    company: "MCG",
+    startDate: "Dec 2023",
+    endDate: "Apr 2024",
     isCurrentJob: false,
     location: "Remote",
     description: [
@@ -44,9 +30,25 @@ const experiences: IExperienceItem[] = [
     ],
   },
   {
+    designation: "Full Stack Developer",
+    company: "Sparkle Infotech",
+    startDate: "Nov 2021",
+    endDate: "Dec 2023",
+    isCurrentJob: false,
+    location: "Pune, India",
+    description: [
+      "Developed over 5 web applications with seamless backend API integration.",
+      "Streamlined workflows by eliminating redundant data, boosting efficiency.",
+      "Improved website loading time by 80% through image optimization, minimizing main-thread work, and implementing SEO strategies.",
+      "Resolved 100+ bugs and conducted thorough code reviews.",
+      "Demonstrated expertise in both backend and frontend development.",
+    ],
+  },
+
+  {
     designation: "Web Development Intern",
-    company: "Career Corner Education Pvt Ltd",
-    startDate: "Jul 2021",
+    company: "Cyber Cloud Shield Private Limited",
+    startDate: "Jul 2019",
     endDate: "Nov 2021",
     isCurrentJob: false,
     location: "Remote",
