@@ -47,24 +47,6 @@ export const metadata: Metadata = {
       sizes: "16x16",
       type: "image/x-icon",
     },
-    // {
-    //   url: "/dddd.jpg",
-    //   rel: "icon",
-    //   sizes: "32x32",
-    //   type: "image/x-icon",
-    // },
-    // {
-    //   url: "/dddd.jpg",
-    //   rel: "icon",
-    //   sizes: "48x48",
-    //   type: "image/x-icon",
-    // },
-    // {
-    //   url: "/dddd.jpg",
-    //   rel: "icon",
-    //   sizes: "64x64",
-    //   type: "image/x-icon",
-    // },
   ],
   keywords: [
     "dhaval",
