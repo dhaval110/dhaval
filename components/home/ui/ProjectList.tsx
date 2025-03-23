@@ -28,7 +28,7 @@ const ProjectList = ({ projects }: Readonly<{ projects: IProjectItem[] }>) => {
   };
 
   return (
-    <Column classNames="w-full mt-16">
+    <Column classNames="w-full mt-16 ">
       <Row
         classNames="w-full gap-4 overflow-x-auto no-scrollbar"
         elementRef={carouselRef as React.RefObject<HTMLDivElement>}

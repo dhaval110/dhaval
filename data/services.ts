@@ -18,7 +18,7 @@ const services: IServiceItem[] = [
   // },
   {
     id: 2,
-    title: "Web Development",
+    title: "Web App Development Services",
     icons: [
       "/skills/redux.svg",
       "/skills/react.svg",
@@ -28,7 +28,7 @@ const services: IServiceItem[] = [
     ],
     shortDescription: "I build visually stunning and user-friendly websites.",
     description:
-      "I deliver stunning, user-friendly websites to establish your online presence. From simple sites to complex e-commerce platforms, I provide tailored solutions using the latest frameworks and technologies for a seamless, responsive, and SEO-friendly browsing experience. Enhance your online identity with quality.",
+      "I craft stunning, high-performance websites, web applications, SaaS platforms, and Progressive Web Apps (PWAs) that elevate your online presence. Whether you need a responsive business site, a scalable SaaS application, or a feature-rich PWA, I deliver tailored solutions using the latest technologies and frameworks.",
   },
   {
     id: 3,

@@ -2,17 +2,43 @@ import { IProjectItem, ProjectType, RepoType } from "@/types";
 
 const projects: IProjectItem[] = [
   {
-    id: "social-media-app-flutter",
-    title: "Social Media App",
+    id: "office-dragons-webapp",
+    title: "Office & Dragons",
     description:
-      "A social media mobile application developed using Flutter, GetX, Firebase Notifications and Hive.",
-    icon: "/skills/flutter.svg",
+      "A powerful web application built using Next.js, ShadCN, Tailwind CSS, and Laravel, designed for document management and workflow automation.",
+    icon: "/skills/nextjs.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/social-media-app-flutter",
-    url: "https://github.com/nixrajput/social-media-app-flutter/releases",
-    tags: ["Flutter", "Dart", "GetX", "Hive"],
-  },
+    // githubUrl: "/",
+    url: "https://app.officeanddragons.com/login",
+    tags: ["Next.js", "ShadCN", "Tailwind CSS", "Laravel", "Web App"],
+  }
+,  
+
+{
+  id: "mystique-ai-webapp",
+  title: "Mystique AI",
+  description:
+    "An advanced AI-powered web application leveraging Next.js, Styled Components, CSS. It integrates Streaming API, GCP & AWS cloud storage, and OAuth authentication for a seamless AI-driven experience.",
+  icon: "/skills/react.svg",
+  repoType: RepoType.Public,
+  projectType: ProjectType.Personal,
+  url: "https://mystique.team/",
+  tags: [
+    "Next.js",
+    "Styled Components",
+    "CSS",
+    "Django",
+    "Streaming API",
+    "GCP",
+    "AWS",
+    "OAuth",
+    "AI",
+    "Web App"
+  ],
+}
+
+,
   {
     id: "e-commerce-app-mern",
     title: "E-commerce App",
@@ -101,8 +127,8 @@ const projects: IProjectItem[] = [
     icon: "/skills/nextjs.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/portfolio-website",
-    url: "https://nixrajput.dev",
+    githubUrl: "https://github.com/dhaval110/dhaval",
+    url: "https://dhaval1.vercel.app/",
     tags: ["Next.js", "Sass", "Web Development"],
   },
   {

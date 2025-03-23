@@ -15,7 +15,7 @@ const skills: ISkillListItem[] = [
         icon: "/skills/typescript.svg",
       },
       {
-        title: "Dart",
+        title: "Python",
         level: SkillLevel.Expert,
         icon: "/skills/dart.svg",
       },
@@ -45,7 +45,7 @@ const skills: ISkillListItem[] = [
         icon: "/skills/css.svg",
       },
       {
-        title: "SASS",
+        title: "Tailwind",
         level: SkillLevel.Intermediate,
         icon: "/skills/sass.svg",
       },
