@@ -9,116 +9,49 @@ const projects: IProjectItem[] = [
     icon: "/skills/nextjs.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    // githubUrl: "/",
     url: "https://app.officeanddragons.com/login",
     tags: ["Next.js", "ShadCN", "Tailwind CSS", "Laravel", "Web App"],
   }
-,  
+  ,
 
-{
-  id: "mystique-ai-webapp",
-  title: "Mystique AI",
-  description:
-    "An advanced AI-powered web application leveraging Next.js, Styled Components, CSS. It integrates Streaming API, GCP & AWS cloud storage, and OAuth authentication for a seamless AI-driven experience.",
-  icon: "/skills/react.svg",
-  repoType: RepoType.Public,
-  projectType: ProjectType.Personal,
-  url: "https://mystique.team/",
-  tags: [
-    "Next.js",
-    "Styled Components",
-    "CSS",
-    "Django",
-    "Streaming API",
-    "GCP",
-    "AWS",
-    "OAuth",
-    "AI",
-    "Web App"
-  ],
-}
-
-,
   {
-    id: "e-commerce-app-mern",
-    title: "E-commerce App",
+    id: "mystique-ai-webapp",
+    title: "Mystique AI",
     description:
-      "An e-commerce web application developed using React.js, Material UI, Redux, and Stripe.",
+      "An advanced AI-powered web application leveraging Next.js, Styled Components, CSS. It integrates Streaming API, GCP & AWS cloud storage, and OAuth authentication for a seamless AI-driven experience.",
     icon: "/skills/react.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/ecommerce-web-reactjs",
-    url: "https://nixlab-shop.vercel.app",
-    tags: ["React.js", "Redux", "Material UI", "Stripe"],
-  },
-  {
-    id: "video-calling-app-flutter",
-    title: "Video Calling App",
-    description:
-      "A video calling mobile application developed using Flutter and Agora SDK that allows users to call each other face to face.",
-    icon: "/skills/flutter.svg",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/video-calling-app-flutter",
-    url: "https://github.com/nixrajput/video-calling-app-flutter/releases",
-    tags: ["Flutter", "Dart", "GetX", "Agora SDK"],
-  },
+    url: "https://mystique.team/",
+    tags: [
+      "Next.js",
+      "Styled Components",
+      "CSS",
+      "Django",
+      "Streaming API",
+      "GCP",
+      "AWS",
+      "OAuth",
+      "AI",
+      "Web App"
+    ],
+  }
+
+  ,
+
   {
     id: "social-media-api-nodejs",
     title: "Social Media API",
     description:
-      "A RESTful API developed using Node.js, Express.js, and MongoDB to integrate backend and frontend with ease.",
-    icon: "/skills/nestjs.svg",
+      "A RESTful API developed using Node.js, Express.js, and Postgres, Supabase Prisma to integrate backend and frontend with ease.",
+    icon: "/skills/express.svg",
     repoType: RepoType.Public,
+    url: "https://reactnativebe-ympr.onrender.com",
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/social-media-api-nodejs",
-    tags: ["Node.js", "Express.js", "MongoDB", "WebSocket"],
+    githubUrl: "https://github.com/dhaval110/social-media-backend",
+    tags: ["Node.js", "Express.js", "Postgres", "WebSocket"],
   },
-  {
-    id: "grocery-list-maker-app-flutter",
-    title: "Grocery List Maker App",
-    description:
-      "A grocery list maker mobile application developed using Flutter, BloC, Hive DB, and PDF.",
-    icon: "/skills/flutter.svg",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/grocery-list-maker-flutter",
-    url: "https://github.com/nixrajput/grocery-list-maker-flutter/releases/latest",
-    tags: ["Flutter", "Dart", "BLoC", "PDF", "Hive"],
-  },
-  {
-    id: "e-commerce-api-nodejs",
-    title: "E-commerce API",
-    description:
-      "A RESTful API developed using Node.js, Express.js, MongoDB, and Stripe to integrate e-commerce backend.",
-    icon: "/skills/nodejs.svg",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/ecommerce-api-nodejs",
-    tags: ["Node.js", "Express.js", "MongoDB", "Stripe"],
-  },
-  {
-    id: "flutter-carousel-widget-package",
-    title: "Flutter Carousel Widget Package",
-    description:
-      "A customizable carousel widget for Flutter, offering features such as infinite scrolling, auto-scrolling, custom child widgets, pre-built indicators, expandable child widgets, auto-sized child support, and enlarged center page.",
-    icon: "/skills/flutter.svg",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/flutter-carousel-widget-package",
-    tags: ["Flutter", "Dart", "Carousel"],
-  },
-  {
-    id: "get-time-ago-package",
-    title: "GetTimeAgo Package",
-    description:
-      "A Dart package that converts and formats DateTime objects into human-readable 'time ago' strings, such as '20 seconds ago', 'a minute ago', or '7 hours ago'.",
-    icon: "/skills/dart.svg",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/gettimeago",
-    tags: ["Dart", "DateTime", "Formatting"],
-  },
+
   {
     id: "portfolio-website",
     title: "Portfolio Website",
@@ -131,16 +64,21 @@ const projects: IProjectItem[] = [
     url: "https://dhaval1.vercel.app/",
     tags: ["Next.js", "Sass", "Web Development"],
   },
+
   {
-    id: "bus-reservation-system-management",
-    title: "Bus Reservation System Management",
+    id: "klimate-weather-app",
+    title: "Klimate - Weather App",
     description:
-      "This repository contains the Bus Reservation System Management project developed using Object Oriented Programming (OOP) and File Handling concepts in C++.",
-    icon: "/skills/cpp.png",
+      "A modern weather app built with Next.js, Tailwind CSS, Shadcn UI, TanStack Query, and TypeScript. It fetches real-time weather data and displays it with a clean, responsive UI.",
+    icon: "/skills/nextjs.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/bus-reservation-system",
-    tags: ["C++", "OOP", "File Handling"],
-  },
+    githubUrl: "https://github.com/dhaval110/klimate",
+    url: "https://klimate-ebon.vercel.app/",
+    tags: ["Next.js", "Tailwind CSS", "TypeScript", "React", "Shadcn UI", "TanStack Query", "Weather API"],
+  }
+
+
+
 ];
 export default projects;
